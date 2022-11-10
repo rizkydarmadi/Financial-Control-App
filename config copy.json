@@ -1,0 +1,22 @@
+{
+    "database": [
+        {
+            "rdbms": "postgresql",
+            "user":"postgres",
+            "host": "localhost",
+            "port": 5460,
+            "name": "postgres",
+            "password": "12qwaszx"
+        }
+    ],
+    "third_party_api": {
+        "name": ""
+    },
+    "cors": [],
+    "jwt": {
+        "jwt_prefix": "Bearer",
+        "secret_key": "secret-key",
+        "algorithm": "HS256",
+        "expired": 30
+    }
+}
