@@ -1,5 +1,16 @@
 from datetime import date
 from dateutil.relativedelta import relativedelta
+from babel.numbers import format_currency as fc
+
+class Curency:
+    @staticmethod
+    def convert(type) -> str:
+        if type != None:
+            return fc(type,'IDR',locale='id')
+        else:
+            return '-'
+
+
 
 
 class dateUtil:

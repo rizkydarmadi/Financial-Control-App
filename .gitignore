@@ -2,6 +2,7 @@ env/
 alembic.ini
 config.json
 .vscode
+autostart.sh
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
